@@ -5,7 +5,7 @@ total = 0
 
 def main_menu_func():
     print(main_menu)
-    x = str(input("Select your preferred section. Type NONE to finish."))
+    x = str(input("Select your preferred category. Type NONE to finish."))
     if( x == 'drinks'):
         print(drinks_func())
     elif ( x == 'chips'):
